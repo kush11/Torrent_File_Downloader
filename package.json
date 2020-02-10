@@ -1,0 +1,110 @@
+{
+  "_from": "peerflix-server",
+  "_id": "peerflix-server@0.5.1",
+  "_inBundle": false,
+  "_integrity": "sha512-sXl2KCt8LCUrL6ezEPD4W5D5b+I0/VVOYlfI0K3GfdVUXkNHcb0q7cogPNjAXmoSMhvb57x2nhZN1xwxgGjzuw==",
+  "_location": "/peerflix-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "peerflix-server",
+    "name": "peerflix-server",
+    "escapedName": "peerflix-server",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/peerflix-server/-/peerflix-server-0.5.1.tgz",
+  "_shasum": "7a9e9d0bc921b4f7c208d85b51bc51b254e27875",
+  "_spec": "peerflix-server",
+  "_where": "/home/kush",
+  "author": {
+    "name": "Aliaksei Sapach",
+    "email": "dreamsonic@tut.by"
+  },
+  "bin": {
+    "peerflix-server": "./server/bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/asapach/peerflix-server/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.0.0",
+    "lodash": "^4",
+    "mkdirp": "^0.5.1",
+    "morgan": "^1.9.1",
+    "pump": "^3.0.0",
+    "range-parser": "^1.2.0",
+    "read-torrent": "^1.3.0",
+    "serve-static": "^1.14.1",
+    "socket.io": "^2.3.0",
+    "torrent-stream": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "Streaming torrent client for node.js with web ui.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~0.7.3",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-karma": "^2.0.0",
+    "grunt-newer": "~0.7.0",
+    "grunt-ngmin": "~0.0.3",
+    "grunt-rev": "~0.1.0",
+    "grunt-svgmin": "~0.4.0",
+    "grunt-usemin": "~2.1.1",
+    "grunt-wiredep": "~1.7.0",
+    "jshint-stylish": "~0.2.0",
+    "karma": "^0.13.22",
+    "karma-jasmine": "~0.1.5",
+    "karma-ng-html2js-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/asapach/peerflix-server#readme",
+  "keywords": [
+    "bittorrent",
+    "torrent",
+    "stream",
+    "peerflix",
+    "server",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "./server/bin.js",
+  "name": "peerflix-server",
+  "optionalDependencies": {
+    "fluent-ffmpeg": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asapach/peerflix-server.git"
+  },
+  "scripts": {
+    "prepack": "grunt build",
+    "start": "node ./server/bin.js",
+    "test": "grunt test"
+  },
+  "version": "0.5.1"
+}
