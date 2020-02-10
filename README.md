@@ -3,10 +3,10 @@ Torrent-server
 
 Streaming torrent client for node.js with web ui.
 ## Docker install
-``docker pull ksuh646/tfd:1
+``docker pull kush636/torrent
 ``
 ## Docker run
-``docker run -itd ksuh646/tfd:1
+``docker run -itd kush636/torrent
 ``
 
 ## Usage
